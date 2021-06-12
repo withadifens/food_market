@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "795195859263",
-    "project_id": "bwa-foodmarket-e4608",
-    "storage_bucket": "bwa-foodmarket-e4608.appspot.com"
+    "project_number": "808009943293",
+    "project_id": "bwa-foodmarket-34f9e",
+    "storage_bucket": "bwa-foodmarket-34f9e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795195859263:android:f61e8e06e182d1eb1e338a",
+        "mobilesdk_app_id": "1:808009943293:android:28353535c41774021b1694",
         "android_client_info": {
-          "package_name": "com.example.food_market"
+          "package_name": "com.adifens.foodMarket"
         }
       },
       "oauth_client": [
         {
-          "client_id": "795195859263-npfgp39jo8938kch2o2f8ga50kbi8a5j.apps.googleusercontent.com",
+          "client_id": "808009943293-lesttqokbvaa6f4aelkc7akeg0rb23s0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAf42Wj9d43jBVTd-BDTOaCjRxl26BrOko"
+          "current_key": "AIzaSyBpinUa0lQKemvRMS1BWuJbFgXw62JCa_Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "795195859263-npfgp39jo8938kch2o2f8ga50kbi8a5j.apps.googleusercontent.com",
+              "client_id": "808009943293-lesttqokbvaa6f4aelkc7akeg0rb23s0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
