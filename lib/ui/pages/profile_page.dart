@@ -120,7 +120,7 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),
             SizedBox(
-              height: 50,
+              height: 30,
             ),
             Container(
               width: 120,
@@ -137,7 +137,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 child: Text('Log Out', style: GoogleFonts.poppins(
                           color: Colors.black, fontWeight: FontWeight.w500),),
                 ),
-            )
+            ),
           ],
         ),
       ],
