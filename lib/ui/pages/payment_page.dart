@@ -147,7 +147,7 @@ class _PaymentPageState extends State<PaymentPage> {
                                   locale: 'id-ID',
                                   symbol: 'IDR ',
                                   decimalDigits: 0)
-                              .format(50000),
+                              .format(5000),
                           style: blackFontStyle3,
                           textAlign: TextAlign.right,
                         ))
@@ -207,7 +207,7 @@ class _PaymentPageState extends State<PaymentPage> {
                                   locale: 'id-ID',
                                   symbol: 'IDR ',
                                   decimalDigits: 0)
-                              .format(widget.transaction.total * 1.1 + 50000),
+                              .format(widget.transaction.total * 1.1 + 5000),
                           style: blackFontStyle3.copyWith(
                               fontWeight: FontWeight.w500,
                               color: '1ABC9C'.toColor()),
@@ -356,7 +356,7 @@ class _PaymentPageState extends State<PaymentPage> {
                           .submitTransaction(widget.transaction.copyWith(
                               dateTime: DateTime.now(),
                               total: (widget.transaction.total * 1.1).toInt() +
-                                  50000));
+                                  5000));
 
                       if (paymentURL != null) {
                         Get.to(PaymentMethodPage(paymentURL));

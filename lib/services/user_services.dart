@@ -59,7 +59,7 @@ class UserServices {
       if (result.value != null) {
         value = value.copyWith(
             picturePath:
-                "http://foodmarket-backend.buildwithangga.id/storage/" +
+                "http://192.168.10.107:8000/storage/" +
                     result.value);
       }
     }

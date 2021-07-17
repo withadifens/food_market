@@ -48,7 +48,7 @@ class Transaction extends Equatable {
       dateTime: DateTime.fromMillisecondsSinceEpoch(data['created_at']),
       status: (data['status'] == 'PENDING')
           ? TransactionStatus.pending
-          : (data['status'] == 'Delivered')
+          : (data['status'] == 'DELIVERED')
               ? TransactionStatus.delivered
               : (data['status'] == 'CANCELLED')
                   ? TransactionStatus.cancelled
